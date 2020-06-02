@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const xss = require('xss');
 const FoldersService = require('./folders-service');
 const foldersRouter = express.Router();
